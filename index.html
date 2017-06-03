@@ -1,52 +1,120 @@
 <!DOCTYPE html>
-<html><head><title>W A X V A P O U R</title>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <style>
-/* Float Shadow */
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.hvr-float-shadow:before {
-  pointer-events: none;
+.bgimg-1 {
+  background-image: url("a.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("b.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("c.jpg");
+  min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("d.jpg");
+  min-height: 100%;
+}
+
+.caption {
   position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
 }
 </style>
+<title>W a x v a p o u r</title>
 </head>
 <body>
-<div class="hvr-float-shadow" style="position:absolute; top:100; left:500; height:400; width:700;">W A X V A P O U R domain owned by: <br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Nishika</b> & <b>Vaibhav</b><br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.youtube.com/channel/UCT7GY5vEIgS70SGogK4V3ww">waxvapour's youtube channel</a><br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.facebook.com/waxvapour/">waxvapour's Facebook page</a><br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b><i>Main site under Construction!</b></i></div>
 
-</body>
-</html>
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">W A X V A P O U R</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Introduction</h3>
+  <p align="center">putting it simply, well we make video's go ahead and watch a few of them and you will know the rest.<br><br>
+ 
+  <a href="https://www.youtube.com/channel/UCT7GY5vEIgS70SGogK4V3ww"><img src="youp.png" alt="youtube channel" style="height:4%; width:6%;  align:center;"/></a>&nbsp&nbsp&nbsp&nbsp
+  <a href="https://www.facebook.com/waxvapour/"><img src="fbp.png" alt="facebook page" style="height:4%; width:4%;  align:center;"/></a></p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:purple;font-size:25px;color: #f7f7f7;">animator  <b>Nishika</b></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p><b>Nishika</b> is the animator doing all the stop motion animation work....&nbsp&nbsp&nbsp and trust me its way more time taking and complicated than the other methods out.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;">narrator <b>Vaibhav</b></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p><b>Vaibhav</b> is the educator or the narrator of Waxvapour..... he do's all the narration and lesson development work.</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+    <span class="border" style="background-color:white;font-size:25px;color: black;">coming soon</span>
+  </div>
+</div>
+
+
+</body></html>
